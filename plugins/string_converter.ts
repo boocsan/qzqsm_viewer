@@ -15,3 +15,5 @@ export function datetimeToString(datetime: Date, format: string): string {
     .replace("{mm}", datetime.getMinutes().toString().padStart(2, "0"))
     .replace("{ss}", datetime.getSeconds().toString().padStart(2, "0"));
 }
+
+export default {};

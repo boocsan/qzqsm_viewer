@@ -135,3 +135,5 @@ export function parse(t: string): Qzqsm {
     nmea: t
   };
 };
+
+export default {};
