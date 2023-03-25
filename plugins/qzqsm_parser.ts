@@ -93,7 +93,7 @@ export function parse(t: string): Qzqsm {
   const parsedText = (() => {
     switch (dc) {
       case 1: return parsers.EarthquakeEarlyWarningParser(sentence);
-      // case 2: return parsers.HypocenterParser(sentence);
+      case 2: return parsers.HypocenterParser(sentence);
       // case 3: return parsers.SeismicIntensityParser(sentence);
       // case 4: return parsers.NankaiTroughEarthquakeParser(sentence);
       // case 5: return parsers.TsunamiParser(sentence);
